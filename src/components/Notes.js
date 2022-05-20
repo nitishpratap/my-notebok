@@ -82,7 +82,8 @@ function Notes(note, title) {
               <div className="product" style={{ margin: "1rem" }}>
               <div style={{
                     width: "18rem",
-                    height: "12rem",
+                    minHeight:'2rem',
+                    overflow:'hidden',
                     display: "flex",
                     border: "1px solid grey",
                   }}>
